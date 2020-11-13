@@ -8,8 +8,8 @@ Integration of the Reachy robot in MoveIt for ROS 1
 1. Install [ROS Noetic](http://wiki.ros.org/noetic/Installation) on top of [Ubuntu 20.04](https://ubuntu.com/download/desktop)
 2. Install [MoveIt 1](https://moveit.ros.org/install/)
 3. Configure [your ROS environment](wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) so that you can sucessfully compile your ROS workspace (e.g. `~/catkin_ws`) with `catkin_make` command
-4. `cd ~/catkin_ws/src && git clone https://github.com/aubrune/reachy_moveit_config`
-5. `cd ~/catkin_ws/src && git clone https://github.com/aubrune/reachy_description`
+4. `cd ~/catkin_ws/src && git clone https://github.com/pollen-robotics/reachy_moveit_config`
+5. `cd ~/catkin_ws/src && git clone https://github.com/pollen-robotics/reachy_description`
 6. `cd ~/catkin_ws && catkin_make`
 7. `source ~/catkin_ws/devel/setup.bash`
 
